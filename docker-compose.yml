@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  mini-nginx:
+    build: ./nginx-clone
+    ports:
+      - "8080:80"
+    environment:
+      - BACKEND_HOST=backend
+      - BACKEND_PORT=5000
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    expose:
+      - "5000"
