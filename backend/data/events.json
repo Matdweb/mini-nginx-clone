@@ -1,0 +1,47 @@
+[
+  {
+    "id": "evt-001",
+    "title": "Community Food Drive",
+    "date": "2025-10-05T09:00:00Z",
+    "location": "Central Park — Pavilion A",
+    "description": "Collecting canned goods and assembling food packages for families in need.",
+    "tags": ["volunteer", "food", "community"],
+    "capacity": 50
+  },
+  {
+    "id": "evt-002",
+    "title": "Coding Workshop for Teens",
+    "date": "2025-10-12T14:00:00Z",
+    "location": "Community Center — Room 3",
+    "description": "Intro to web dev: HTML, CSS & JS. Bring your laptop.",
+    "tags": ["education", "workshop", "tech"],
+    "capacity": 30
+  },
+  {
+    "id": "evt-003",
+    "title": "Neighborhood Clean-up",
+    "date": "2025-10-19T08:00:00Z",
+    "location": "Meet at 12th Street entrance",
+    "description": "Help keep the neighborhood clean. Gloves & bags provided.",
+    "tags": ["community", "outdoors"],
+    "capacity": 100
+  },
+  {
+    "id": "evt-004",
+    "title": "Local Farmers Market",
+    "date": "2025-10-25T07:00:00Z",
+    "location": "Main Square",
+    "description": "Fresh produce and local crafts. Family friendly.",
+    "tags": ["market", "food", "local"],
+    "capacity": 500
+  },
+  {
+    "id": "evt-005",
+    "title": "Health & Wellness Fair",
+    "date": "2025-11-01T10:00:00Z",
+    "location": "Community Center",
+    "description": "Free screenings and workshops about heart health and nutrition.",
+    "tags": ["health", "community"],
+    "capacity": 200
+  }
+]
