@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Community Events — Mini Nginx Demo</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <img src="/logo.svg" alt="logo" class="logo"/>
+      <h1>Community Events</h1>
+      <p class="subtitle">Discover volunteer activities and local meetups near you</p>
+      <div class="controls">
+        <input id="q" placeholder="Search by title or tag (e.g. 'food' or 'workshop')" />
+        <select id="tag-filter">
+          <option value="">All tags</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="events" class="grid"></section>
+  </main>
+
+  <footer>
+    <small>Mini-nginx demo • static server + reverse proxy + cache + gzip</small>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
